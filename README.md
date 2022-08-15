@@ -1,5 +1,9 @@
 # Selenium-hCpatcha-Solver-Python
 
+<center>
+    <img src="logo.png" width="640" height="320">
+</center>
+
 ### What Is This Project?
 This is a 'human like' hCaptcha solver for selenium written in python, it utilises the api provided by [anycaptcha](https://anycaptcha.com/) and is mainly focused for people who can't solve a captcha through a callback function and need to stay as undetected as possible.
 
