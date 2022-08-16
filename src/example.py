@@ -1,6 +1,7 @@
 from json import loads
-from CaptchaSolver import CaptchaSolver
-from selenium.webdriver import Chrome, ChromeOptions
+from src.CaptchaSolver import CaptchaSolver
+from selenium.webdriver import Chrome
+
 
 def get_anycaptcha_api_key() -> str:
     with open("config.json", 'r') as file:
