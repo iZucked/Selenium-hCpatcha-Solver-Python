@@ -1,10 +1,12 @@
+import os
 from json import loads
-from src.CaptchaSolver import CaptchaSolver
+from CaptchaSolver import CaptchaSolver
 from selenium.webdriver import Chrome
 
 
 def get_anycaptcha_api_key() -> str:
-    with open("config.json", 'r') as file:
+    file_path = os.path.join(os.path.dirname(__file__), "config.json")
+    with open(file_path, 'r') as file:
         json_data = loads(file.read())
         return json_data['api_keys']['anycaptcha']
 
