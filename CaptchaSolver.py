@@ -108,6 +108,7 @@ class CaptchaSolver:
                 if WebDriverWait(browser, 5).until(EC.text_to_be_present_in_element_attribute(
                         (By.CLASS_NAME, "check"), "style", "display: block")
                 ):
+                    browser.switch_to.default_content()  # Exit iframe
                     return True
             except TimeoutException:
                 # Exit iframe and go back to captcha iframe
