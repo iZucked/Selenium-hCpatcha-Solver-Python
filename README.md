@@ -13,7 +13,7 @@ This is a 'human like' hCaptcha solver for selenium written in python, it utilis
 pip3 install -r requirements.txt 
 ```
 
-2. Place your [anycaptcha](https://anycaptcha.com?referral=13256) api key in the config.json file
+2. Place your [anycaptcha](https://anycaptcha.com?referral=13256) api key in the sr/config.json file
 ```vim
 {
   "api_keys" : {
@@ -24,5 +24,5 @@ pip3 install -r requirements.txt
 
 3. Run The example.py file and configure the driver if there are any errors which occur
 ```vim
-python3 example.py
+python3 src/example.py
 ```
