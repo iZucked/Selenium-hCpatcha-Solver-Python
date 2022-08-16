@@ -5,7 +5,7 @@
 </center>
 
 ### What Is This Project?
-This is a 'human like' hCaptcha solver for selenium written in python, it utilises the api provided by [anycaptcha](https://anycaptcha.com/) and is mainly focused for people who can't solve a captcha through a callback function and need to stay as undetected as possible.
+This is a 'human like' hCaptcha solver for selenium written in python, it utilises the api provided by [anycaptcha](https://anycaptcha.com?referral=13256) and is mainly focused for people who can't solve a captcha through a callback function and need to stay as undetected as possible.
 
 ### How Can I Run The Example?
 1. Install the requirements needed
@@ -13,7 +13,7 @@ This is a 'human like' hCaptcha solver for selenium written in python, it utilis
 pip3 install -r requirements.txt 
 ```
 
-2. Place your anycaptcha api key in the config.json file
+2. Place your [anycaptcha](https://anycaptcha.com?referral=13256) api key in the config.json file
 ```vim
 {
   "api_keys" : {
